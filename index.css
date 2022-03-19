@@ -1,0 +1,241 @@
+.Background1{
+    /* background: linear-gradient(to right,darkgoldenrod 5%,cornflowerblue 50%); */
+    background: linear-gradient(to right, darkgoldenrod 0%, darkgoldenrod 10%,cornflowerblue 10%,cornflowerblue 100%);
+    display: flex;
+    font-size: xx-large;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+
+  
+    }
+.profileimage
+{
+    border-radius: 100%;
+    width: 90%;
+    border:5px solid;
+    border-color: white;
+}
+
+.Background1 p
+{
+    
+    font-size: x-large;
+    
+}
+.profilepic{
+    
+    width: 10%;
+    margin-left:80px;
+    margin-top:10px ;
+    
+}
+.info
+{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+
+.SideImages{
+
+    
+    border-radius: 100%;
+    margin-top: 3%; 
+    width: 25px;
+    height: 25px;
+    border: 5px solid; 
+    border-color: blue;
+
+}
+.Background1 ul
+{
+    list-style: none;
+}
+.Icons{
+    
+    margin-left: 799px;
+    margin-top: 7px;
+    background-color: white;
+
+    
+    
+}
+
+.Ullist1 p{
+    
+    font-size:medium;
+    color: black;
+    margin-left: 55px;
+    margin-top: -39px;
+    
+}
+
+.Background2{
+  
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+    }
+.right{
+    width:59%;
+    height: auto;
+}
+.SideImages2{
+    width:7%;
+    border-radius: 100%;
+    border:3px dashed;
+    color:blue;
+}
+.right h1{
+    margin-left: 100px;
+    margin-top:-55px;
+    color:deepskyblue;
+    text-decoration: underline;
+}
+.right h2{
+    margin-left: 100px;
+    
+    
+}
+.right h3{
+    margin-left: 100px;
+    margin-top: -10px;
+    font-weight: normal;
+}
+.right p
+{
+    margin-left: 100px;
+    font-size: large;
+    padding-right: 10px;
+}
+.Year{
+    color:deepskyblue;
+}
+.subjects{
+    margin-left: 74px;
+    list-style: none;    
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.subjects ::before{
+  content: "•"; 
+  color: deepskyblue;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1em;
+}
+.Carrer{
+    margin-left: 74px;
+    list-style: none;    
+    font-size: large;
+   
+
+}
+.Carrer ::before{
+    content: "•"; 
+    color: deepskyblue;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+  }
+  .left{
+      width: 32.41%;
+      height: 800px;
+      margin-left: 1000px;
+      margin-top: -792px;
+      background-color:lightsteelblue
+  }
+.SideImages3{
+    width:15%;
+    border-radius: 100%;
+    border:3px dashed;
+    color:blue;
+}
+.left h1{
+    margin-left: 100px;
+    margin-top:-55px;
+    color:deepskyblue;
+    text-decoration: underline;
+}
+.skills{
+    list-style: none;
+    margin-left: 100px;
+}
+.skills li{
+    margin:20px 0;
+}
+.bar{
+    background:  #353b48;
+    display:block;
+    height: 2px;
+    width:300px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height:2px;
+    float: left;
+    background:#2187e7;
+}
+.html{
+    width:90%;
+    animation:html 2s;
+}
+.CSS{
+    width:70%;
+    animation:CSS 2s;
+}
+.JavaScript{
+    width: 65%;
+    animation:JavaScript 2s;
+}
+.Jquery{
+    width: 85%;
+    animation:Jquery 2s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes JavaScript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes Jquery{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+    
+  }
+  
